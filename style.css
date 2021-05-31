@@ -39,7 +39,7 @@ font-size: 20px;
 .menu {
     list-style: none;
     font-family: monospace;
-    position: absolute;
+    position: fixed;
     top: 5px;
     right: 5px;
     z-index: 10;
@@ -57,4 +57,11 @@ h3{
 }
 html{
     scroll-behavior: smooth;
+}
+#picture{
+    border: 2px solid #d96be8;
+    transition: transform .2s;
+}
+#picture:hover{
+    transform: scale(0.9);
 }
